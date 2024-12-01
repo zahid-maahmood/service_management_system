@@ -1,0 +1,575 @@
+
+/* page_list_mission partner management */
+
+/* mission_vission_page_start */
+
+section{
+
+}
+.miss_vis_contrainer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.contain{
+    margin: 50px 0;
+}
+.contain h2{
+    font-family: sans-serif;
+    font-size: 21px;
+    color: #dd3333;
+    padding: 20px 0;
+
+}
+.contain p{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+}
+.contain p b{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #000000ba;
+}
+
+/* mission_vission_page_End */
+
+/* partner_page_start */
+#movement_partner{
+
+}
+.move_ptr_contrainer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.move_ptr_contain{
+    margin: 50px 0;
+}
+.move_ptr_contain h2{
+    text-align: center;
+    background: #dd3333;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 23px;
+    border-radius: 5px;
+}
+.move_ptr_contain h3{
+    margin: 20px 0;
+    font-size: 22px;
+    color: #e72424;
+}
+.partners_logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.partners{
+    flex-basis: 20%;
+}
+.collab_partner{
+    flex-basis: 25%;
+}
+.partners img{
+    padding: 6px 0;
+    transition: .8s;
+}
+.partners img:hover{
+    transform: scale(1.1); 
+    
+}
+.collab_partner img{
+    transition: .8s;
+}
+.collab_partner img:hover{
+    transform: scale(1.1); 
+  
+}
+/* partner_page_end */
+
+  /* Management_part_start  */
+
+.management_part{
+
+}
+.contrainer_management{
+    width: 1200px;
+    margin: 0 auto;
+}
+.contrainer_management> h2{
+    margin: 20px 0;
+    font-family: monospace;
+    font-size: 22px;
+    color: #dd3333;
+}
+.mgr_general{
+    display: flex;
+    flex-direction: column;
+}
+.mgr_name{
+    display: flex;
+    gap: 20px;
+}
+.mgr_person{
+
+    flex-basis: 30%;
+}
+.mgr_person img{
+    width: 200px;
+    margin: 21px 0;
+    border-radius: 15px;
+    transition: .8s;
+}
+.mgr_person img:hover{
+    
+    transform: scale(1.1);
+}
+.mgr_spech{
+
+/* flex-basis: 70%; */
+}
+.mgr_spech h2{
+    text-align: center;
+    font-size: 22px;
+    color: #dd3333;
+}
+.mgr_spech h3{
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #dd3333c7;
+}
+.mgr_spech p{
+    text-align: justify;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 21px 0;
+    }
+.mgr_spech a{
+
+    text-decoration: none;
+    color: #dd3333;
+    letter-spacing: 1px;
+}
+
+.director_contrainer{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.directors{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px  0;
+}
+.team_member{
+    flex-basis: 31.33%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 8px 3px 4px 8px #f5f5f5e0;
+    }
+.team_member img{
+    width: 200px;
+    border-radius: 24%;
+    box-shadow: 8px 6px #f5ebeb;
+    transition: .8s;
+}
+.team_member h2{
+
+    margin-top: 15px;
+    font-size: 23px;
+    color: #0e0c0cb8;
+}
+.team_member p{
+    font-size: 16px;
+    color: #0e0e0ea6;}
+.team_member ul{
+    padding: 13px 0;
+}
+.team_member ul li{
+    list-style: none;
+    display: inline;
+}
+.team_member ul li a{
+    font-size: 20px;
+    padding: 7px 12px;
+    background: #4e4e4e;
+    color: #ffff;
+    border-radius: 50%;
+    transition: .8s;
+}
+.team_member img:hover{
+    transform: scale(1.1);
+}
+.team_member ul li a:hover{
+    background-color: #dd3333;
+    transform: scale(1.5);
+}
+ /* Management_part_end */
+
+ /* registration_from_start */
+
+ form{
+    margin-bottom: 25px;
+ }
+ .reg_form_heading{
+    text-align: center;
+    margin: 23px 0;
+    background: #dd3333;
+    border-radius: 10px;
+}
+ 
+ .reg_form_heading h2{
+    font-size: 23px;
+    color: #ffff;
+    letter-spacing: 1px;
+    padding: 6px 0;
+    font-family: monospace;
+ }
+ .blood_contrainer{
+    width: 1095px;
+    margin: 0 auto;
+    /* box-shadow: 0px 1px 0px 2px #dd3333; */
+    border-radius: 10px;
+    border: 2px solid #fdf0;
+}
+ .form_1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+   margin: 0 5px;
+ }
+ .form_name{
+    margin: 8px 0;
+ }
+ .form_name label{
+    font-size: 17px;
+    color: #000000bd;
+}
+ #fname{
+    width: 350px;
+    margin: 6px 0;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #E5E7EB;
+ }
+ #lname{
+    width: 350px;
+    margin: 6px 0;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #E5E7EB;
+    }
+ #dob{
+    width: 350px;
+    margin: 6px 0;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #E5E7EB;
+    /* text-transform: uppercase; */
+ }
+ .form_2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+   margin: 0 5px;
+ }
+ .form_name_2{
+    margin: 8px 0;
+ }
+.address{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+   margin: 0 5px;
+}
+.city{
+    margin: 8px 0;
+}
+#home_distict{
+    width: 350px;
+    margin: 6px 0;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #E5E7EB;
+}
+#curren_city{
+    width: 350px;
+    margin: 6px 0;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #E5E7EB;
+}
+.city textarea{
+    width: 350px;
+    margin: 6px 0;
+    padding: 30px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #E5E7EB;
+}
+
+.ocupation{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+   margin: 0 5px;
+}
+.ocupation_group{
+    margin: 8px 0;
+}
+#occup{
+    width: 350px;
+    margin: 6px 0;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #E5E7EB;
+}
+.agree{
+    margin-left: 8px;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px; 
+}
+.btn{
+    margin: 25px 0;
+    text-align: center;
+}
+.btn button{
+    font-size: 22px;
+    padding: 10px 40px;
+    letter-spacing: 1px;
+    font-family: monospace;
+    border: none;
+    border-radius: 6px;
+    background: #dd3333;
+    color: #ffff;
+    cursor: pointer;
+    transition: .7s;
+
+}
+.btn :hover{
+   color: black;
+}
+.reg_btn_container{
+
+}
+.popup{
+width: 500px;
+height: 280px;
+background-color: #dedfe1;
+border-radius: 15px;
+padding: 0 30px 30px;
+text-align: center;
+top: 0%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%) scale(0.1);
+visibility: hidden;
+transition: transform .4s, top .4s;
+
+}
+.open-popup{
+    visibility: visible;
+    top: 100%;
+    transform: translate(-50%, -50%) scale(1);
+}
+.popup h2{
+    font-size: 32px;
+    margin-top: 47px;
+    letter-spacing: 1px;
+}
+.popup p{
+    margin-top: 22px;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+.popup .btn_2{
+    margin-top: 70px;
+    font-size: 23px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #dd3333;
+    color: #fff;
+    cursor: pointer;
+    transition: .8s;
+}
+.popup .btn_2:hover{
+    transform: scale(1.1);
+    color: black;
+}
+
+ /* registration_from_End */
+
+/* Blood_proram_start */
+.blood_program{
+    width: 100%;
+    height: 550px;
+    }
+    .blood_heading{
+        width: 100%;
+        height: 100%;
+        background-image: url(image/blood_program/blood_heading.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+.blood_content{
+    margin-left: 400px;
+    display: flex;
+}
+.sub_image{
+    padding-top: 80px;
+}
+.sub_image img{
+
+}
+.sub_image_2{
+
+    padding-top: 130px;
+    }
+.sub_image_2 img{
+
+}
+.sub_image_3{
+
+    padding-top: 50px;
+    margin-right: 42px;
+    }
+.sub_image_3 p{
+
+    font-family: monospace;
+    font-size: 22px;
+    text-align: justify;
+    color: #ffff;
+    line-height: 38px;
+}
+.spacce_who{
+    text-align: center;
+}
+.spacce_who iframe{
+
+}
+/* Blood_proram_End */
+
+.blood_prg_btn{
+    text-align: center;
+    margin: 10px 0;
+}
+.blood_prg_btn button{
+    font-size: 17px;
+    font-family: math;
+    padding: 6px 62px;
+    border: 2px solid #dd3333;
+    border-radius: 10px;
+    color: #dd3333;
+    background: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: .8s;
+}
+.blood_prg_btn button:hover{
+    background-color: #dd3333;
+    color: #ffff;
+}
+
+.blood_middle_part{
+
+}
+.blood_middle_contrainer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.blood_middle_part{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 62px;
+    margin: 10px 0;
+}
+.blood_middle_list{
+    flex-basis: 25%;
+}
+.blood_middle_list img{
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 4px 3px #705e5e;
+    transition: .8s;
+}
+.blood_middle_list h2{
+    padding: 10px 0;
+    font-size: 20px;
+    line-height: 25px;
+}
+.blood_middle_list p{
+    font-size: 17px;
+    text-align: justify;
+    line-height: 22px;
+    }
+.blood_middle_list img:hover{
+    transform: scale(1.1);
+}
+.banner{
+  
+    background-image: url(image/blood_program/banner_desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+
+}
+.who_grapic{
+
+}
+.who_container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.who_container h2{
+    margin: 12px 0;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #dd3333;
+}
+.who_container hr{
+    border: 1px solid red;
+}
+.who_gallary{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+    margin: 15px 0;
+}
+.who_pic{
+    flex-basis: 22%;
+}
+.who_pic iframe{
+    width: 100%;
+    border-radius: 5px;
+
+}
+.who_pic img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+.who_pic img:hover{
+    border: 1px solid #dd3333;
+}
+.who_pic:last-child img{
+    border: 1px solid rgb(136, 133, 133);
+}
